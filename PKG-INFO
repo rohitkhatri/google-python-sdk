@@ -1,0 +1,48 @@
+Metadata-Version: 1.1
+Name: google-python-sdk
+Version: 1.0.0
+Summary: Python Google API
+Home-page: https://github.com/rohitkhatri/google-python-sdk
+Author: Rohit Khatri
+Author-email: developer.rohitkhatri@gmail.com
+License: GPL
+Description: # google-python-sdk
+        ===================
+        #### Python - Google API
+        
+        **google-python-sdk** is a simple client for google api.
+        
+        ## Installation
+        ``` 
+        sudo pip install google-python-sdk
+        ```
+        
+        ## Using
+        ```python
+        from google import API
+        api = API('CLIENT_ID', 'CLIENT_SECRET', 'API_KEY', 'ACCESS_TOKEN')
+        ```
+        
+        ## References https://www.googleapis.com/oauth2/v3/userinfo
+        ```python
+        profile = api.get_profile()
+        ```
+        
+        ## References https://oauth2.googleapis.com/tokeninfo
+        ```python
+        tokeninfo = api.get_token_info()
+        ```
+
+        
+        ## Contributing
+        [https://github.com/rohitkhatri/google-python-sdk](https://github.com/rohitkhatri/google-python-sdk)
+
+        
+Keywords: google data api python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
